@@ -20,4 +20,4 @@ print(df['transaction_date'].isnull().sum())
 print(df['kyc_status'].unique())
 print(df.duplicated().sum())
 #saving
-df.to_csv(r"C:\Users\hemam\OneDrive\Desktop\mutual_fund_analytics\data\processed\investor_transaction_cleaned.csv", index=False)
+df.to_csv(r"C:\Users\hemam\OneDrive\Desktop\mutual_fund_analytics\data\processed\08_investor_transaction_cleaned.csv", index=False)
